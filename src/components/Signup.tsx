@@ -6,7 +6,7 @@ import { FaLinkedin } from "react-icons/fa";
 import Image from "next/image";
 import Link from "next/link";
 
-export const UserAccount = (props: { signUp: boolean }) => {
+export const Signup = () => {
   return (
     <div className="flex items-center flex-col">
       <Image
